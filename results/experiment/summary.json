@@ -1,0 +1,402 @@
+{
+  "srm": {
+    "chi2": 0.20253125000000002,
+    "df": 2,
+    "p": 0.9036929575604196,
+    "counts": {
+      "No E-Mail": 21306,
+      "Mens E-Mail": 21307,
+      "Womens E-Mail": 21387
+    }
+  },
+  "max_abs_smd": 0.01365900039927899,
+  "effects": [
+    {
+      "metric": "visit",
+      "treatment": "Mens E-Mail",
+      "mean_c": 0.10616727682343002,
+      "mean_t": 0.18275684047496127,
+      "diff": 0.07658956365153125,
+      "ci_low": 0.06995350121810838,
+      "ci_high": 0.08322562608495411,
+      "lift": 0.721404616781399,
+      "lift_ci_low": 0.6384162289820483,
+      "lift_ci_high": 0.8043930045807497,
+      "p": 5.685165482802317e-112,
+      "p_holm": 1.1370330965604634e-111,
+      "boot_ci_low": NaN,
+      "boot_ci_high": NaN,
+      "family": "primary",
+      "test": "two-proportion z",
+      "se": 0.0033858083545245127
+    },
+    {
+      "metric": "visit",
+      "treatment": "Womens E-Mail",
+      "mean_c": 0.10616727682343002,
+      "mean_t": 0.151400383410483,
+      "diff": 0.045233106587052985,
+      "ci_low": 0.03889382581264261,
+      "ci_high": 0.05157238736146336,
+      "lift": 0.42605507026691014,
+      "lift_ci_low": 0.35440081214298985,
+      "lift_ci_high": 0.49770932839083043,
+      "p": 3.1824031593349214e-44,
+      "p_holm": 3.1824031593349214e-44,
+      "boot_ci_low": NaN,
+      "boot_ci_high": NaN,
+      "family": "primary",
+      "test": "two-proportion z",
+      "se": 0.0032343863583279126
+    },
+    {
+      "metric": "conversion",
+      "treatment": "Mens E-Mail",
+      "mean_c": 0.005726086548390125,
+      "mean_t": 0.01253109306800582,
+      "diff": 0.006805006519615695,
+      "ci_low": 0.005000171380452313,
+      "ci_high": 0.008609841658779076,
+      "lift": 1.188421876286328,
+      "lift_ci_low": 0.7215423751106975,
+      "lift_ci_high": 1.6553013774619583,
+      "p": 1.5232235005955427e-13,
+      "p_holm": 6.092894002382171e-13,
+      "boot_ci_low": NaN,
+      "boot_ci_high": NaN,
+      "family": "secondary",
+      "test": "two-proportion z",
+      "se": 0.000920851175531638
+    },
+    {
+      "metric": "conversion",
+      "treatment": "Womens E-Mail",
+      "mean_c": 0.005726086548390125,
+      "mean_t": 0.008837144059475383,
+      "diff": 0.003111057511085258,
+      "ci_low": 0.0014986778214022348,
+      "ci_high": 0.004723437200768281,
+      "lift": 0.5433130436982172,
+      "lift_ci_low": 0.19324068739890893,
+      "lift_ci_high": 0.8933853999975254,
+      "p": 0.00015710512910668448,
+      "p_holm": 0.00031421025821336897,
+      "boot_ci_low": NaN,
+      "boot_ci_high": NaN,
+      "family": "secondary",
+      "test": "two-proportion z",
+      "se": 0.0008226578153482761
+    },
+    {
+      "metric": "spend",
+      "treatment": "Mens E-Mail",
+      "mean_c": 0.6527893551112363,
+      "mean_t": 1.4226165110057738,
+      "diff": 0.7698271558945375,
+      "ci_low": 0.48513973256840853,
+      "ci_high": 1.0545145792206665,
+      "lift": 1.1792887703620072,
+      "lift_ci_low": 0.5443057195987844,
+      "lift_ci_high": 1.81427182112523,
+      "p": 1.1638149682254259e-07,
+      "p_holm": 3.491444904676278e-07,
+      "boot_ci_low": 0.4790309178966606,
+      "boot_ci_high": 1.050212406168443,
+      "family": "secondary",
+      "test": "Welch t",
+      "se": 0.14524656024868668
+    },
+    {
+      "metric": "spend",
+      "treatment": "Womens E-Mail",
+      "mean_c": 0.6527893551112363,
+      "mean_t": 1.077201571047833,
+      "diff": 0.42441221593659684,
+      "ci_low": 0.16895678988377916,
+      "ci_high": 0.6798676419894145,
+      "lift": 0.6501518638646864,
+      "lift_ci_low": 0.14912759730109382,
+      "lift_ci_high": 1.1511761304282788,
+      "p": 0.00112939710236323,
+      "p_holm": 0.00112939710236323,
+      "boot_ci_low": 0.1625068017251037,
+      "boot_ci_high": 0.678970940967305,
+      "family": "secondary",
+      "test": "Welch t",
+      "se": 0.13033285852919102
+    }
+  ],
+  "head_to_head": [
+    {
+      "metric": "visit",
+      "comparison": "Mens E-Mail - Womens E-Mail",
+      "mean_t": 0.18275684047496127,
+      "mean_c": 0.151400383410483,
+      "diff": 0.03135645706447826,
+      "se": 0.0036079163153119004,
+      "ci_low": 0.02428507102723248,
+      "ci_high": 0.03842784310172404,
+      "stat": 8.68455841563632,
+      "p": 3.802165220636663e-18,
+      "se_t": 0.002647593552353164,
+      "se_c": 0.002450981134123997,
+      "lift": 0.2071094957498445,
+      "lift_se": 0.026223676467915263,
+      "lift_ci_low": 0.15571203433050004,
+      "lift_ci_high": 0.2585069571691889,
+      "df": NaN,
+      "p_holm": 1.1406495661909988e-17
+    },
+    {
+      "metric": "conversion",
+      "comparison": "Mens E-Mail - Womens E-Mail",
+      "mean_t": 0.01253109306800582,
+      "mean_c": 0.008837144059475383,
+      "diff": 0.003693949008530437,
+      "se": 0.000995138832370407,
+      "ci_low": 0.0017435127374671971,
+      "ci_high": 0.005644385279593676,
+      "stat": 3.7125842027552878,
+      "p": 0.0002051537746568838,
+      "se_t": 0.0007620703058169693,
+      "se_c": 0.0006399610493487613,
+      "lift": 0.4180025790764046,
+      "lift_se": 0.13409411947280814,
+      "lift_ci_low": 0.1551829343710895,
+      "lift_ci_high": 0.6808222237817196,
+      "df": NaN,
+      "p_holm": 0.0004103075493137676
+    },
+    {
+      "metric": "spend",
+      "comparison": "Mens E-Mail - Womens E-Mail",
+      "mean_t": 1.4226165110057738,
+      "mean_c": 1.077201571047833,
+      "diff": 0.3454149399579407,
+      "se": 0.15961741484165423,
+      "ci_low": 0.03256144962609592,
+      "ci_high": 0.6582684302897854,
+      "stat": 2.1640178817618603,
+      "p": 0.030468651185298963,
+      "se_t": 0.12162982441082859,
+      "se_c": 0.10336297661408433,
+      "lift": 0.32065952115344865,
+      "lift_se": 0.16972999106814804,
+      "lift_ci_low": -0.012005148436426583,
+      "lift_ci_high": 0.6533241907433238,
+      "df": 41584.58848320838,
+      "p_holm": 0.030468651185298963
+    }
+  ],
+  "power": [
+    {
+      "metric": "visit",
+      "baseline_mean": 0.10616727682343002,
+      "baseline_sd": 0.30805882605596435,
+      "alpha_per_test": 0.025,
+      "power": 0.8,
+      "n_per_arm": 21306,
+      "mde_abs": 0.0092017302328026,
+      "mde_rel": 0.08667200015035022,
+      "n_per_arm_for_10pct_lift": 16006
+    },
+    {
+      "metric": "conversion",
+      "baseline_mean": 0.005726086548390125,
+      "baseline_sd": 0.07545572019078031,
+      "alpha_per_test": 0.0125,
+      "power": 0.8,
+      "n_per_arm": 21306,
+      "mde_abs": 0.002441237431284846,
+      "mde_rel": 0.42633610418815515,
+      "n_per_arm_for_10pct_lift": 387273
+    },
+    {
+      "metric": "spend",
+      "baseline_mean": 0.6527893551112363,
+      "baseline_sd": 11.588199681271506,
+      "alpha_per_test": 0.0125,
+      "power": 0.8,
+      "n_per_arm": 21306,
+      "mde_abs": 0.3749158678970469,
+      "mde_rel": 0.5743290158785764,
+      "n_per_arm_for_10pct_lift": 702804
+    }
+  ],
+  "variance_reduction": [
+    {
+      "metric": "visit",
+      "treatment": "Mens E-Mail",
+      "diff_raw": 0.07658956365153125,
+      "se_raw": 0.0033858878117283653,
+      "theta": 9.134195036168927e-05,
+      "corr_y_x": 0.0666624689341016,
+      "diff_cuped": 0.07641114745941802,
+      "se_cuped": 0.0033783604804229414,
+      "var_reduction_cuped": 0.004443884764390171,
+      "diff_regadj": 0.07647829682528781,
+      "se_regadj": 0.0033429094160824617,
+      "se_ratio_cuped": 0.9977768515308304,
+      "se_ratio_regadj": 0.9873066096587634
+    },
+    {
+      "metric": "visit",
+      "treatment": "Womens E-Mail",
+      "diff_raw": 0.045233106587052985,
+      "se_raw": 0.003234462099090751,
+      "theta": 8.353439339856922e-05,
+      "corr_y_x": 0.06334429572804477,
+      "diff_cuped": 0.04509494235220496,
+      "se_cuped": 0.0032279809009645444,
+      "var_reduction_cuped": 0.004012499801281932,
+      "diff_regadj": 0.04538056069355556,
+      "se_regadj": 0.003194863160063127,
+      "se_ratio_cuped": 0.9979962052645389,
+      "se_ratio_regadj": 0.9877571794584467
+    },
+    {
+      "metric": "conversion",
+      "treatment": "Mens E-Mail",
+      "diff_raw": 0.006805006519615695,
+      "se_raw": 0.0009208727857351216,
+      "theta": 1.104485034899035e-05,
+      "corr_y_x": 0.02979588107299268,
+      "diff_cuped": 0.006783432860043896,
+      "se_cuped": 0.000920467142482419,
+      "var_reduction_cuped": 0.0008877945289156308,
+      "diff_regadj": 0.006791551332979038,
+      "se_regadj": 0.0009193664941122123,
+      "se_ratio_cuped": 0.9995595013133342,
+      "se_ratio_regadj": 0.9983642782735654
+    },
+    {
+      "metric": "conversion",
+      "treatment": "Womens E-Mail",
+      "diff_raw": 0.003111057511085258,
+      "se_raw": 0.0008226770775551195,
+      "theta": 8.71695969321548e-06,
+      "corr_y_x": 0.02604043640941052,
+      "diff_cuped": 0.003096639832124352,
+      "se_cuped": 0.0008223995081154022,
+      "var_reduction_cuped": 0.000678104328392326,
+      "diff_regadj": 0.0031107207877928296,
+      "se_regadj": 0.0008213918776534406,
+      "se_ratio_cuped": 0.9996626021955757,
+      "se_ratio_regadj": 0.998437783260598
+    },
+    {
+      "metric": "spend",
+      "treatment": "Mens E-Mail",
+      "diff_raw": 0.7698271558945368,
+      "se_raw": 0.14524656024868676,
+      "theta": 0.0012228965198244426,
+      "corr_y_x": 0.020922546956069876,
+      "diff_cuped": 0.7674384994278021,
+      "se_cuped": 0.14521504219411457,
+      "var_reduction_cuped": 0.00043775297112880196,
+      "diff_regadj": 0.7685160220304216,
+      "se_regadj": 0.14514686711914995,
+      "se_ratio_cuped": 0.9997830030913075,
+      "se_ratio_regadj": 0.9993136282927036
+    },
+    {
+      "metric": "spend",
+      "treatment": "Womens E-Mail",
+      "diff_raw": 0.4244122159365967,
+      "se_raw": 0.13033285852919116,
+      "theta": 0.001034651293586205,
+      "corr_y_x": 0.0195088785645684,
+      "diff_cuped": 0.42270092315649777,
+      "se_cuped": 0.13030821906506285,
+      "var_reduction_cuped": 0.00038059634284703936,
+      "diff_regadj": 0.4244200735988608,
+      "se_regadj": 0.13008279106989004,
+      "se_ratio_cuped": 0.9998109497143977,
+      "se_ratio_regadj": 0.9980813168519195
+    }
+  ],
+  "guardrail": [
+    {
+      "treatment": "Mens E-Mail",
+      "diff": 0.7698271558945375,
+      "margin": -0.06527893551112363,
+      "lower_bound": 0.4851491289287846,
+      "stat": 5.74957568685839,
+      "p": 4.4733847816770925e-09,
+      "passes": true
+    },
+    {
+      "treatment": "Womens E-Mail",
+      "diff": 0.42441221593659684,
+      "margin": -0.06527893551112363,
+      "lower_bound": 0.16896450721722844,
+      "stat": 3.7572347984529393,
+      "p": 8.590064186073149e-05,
+      "passes": true
+    }
+  ],
+  "heterogeneity_contrast": [
+    {
+      "treatment": "Mens E-Mail",
+      "matching": "mens only",
+      "other": "womens only",
+      "lift_matching": 0.06915516417042274,
+      "lift_other": 0.0705795766326878,
+      "diff_in_lift": -0.0014244124622650595,
+      "ci_low": -0.01494829114794373,
+      "ci_high": 0.01209946622341361,
+      "p": 0.8364514090802027,
+      "p_holm": 0.8364514090802027
+    },
+    {
+      "treatment": "Womens E-Mail",
+      "matching": "womens only",
+      "other": "mens only",
+      "lift_matching": 0.07398533502084667,
+      "lift_other": 0.011078467244666393,
+      "diff_in_lift": 0.06290686777618028,
+      "ci_low": 0.050012422654822024,
+      "ci_high": 0.07580131289753853,
+      "p": 1.1563166698676198e-21,
+      "p_holm": 2.3126333397352396e-21
+    }
+  ],
+  "peeking": [
+    {
+      "n_looks": 1,
+      "false_positive_rate": 0.046,
+      "mc_se": 0.00468422885862764
+    },
+    {
+      "n_looks": 2,
+      "false_positive_rate": 0.0805,
+      "mc_se": 0.006083574196144894
+    },
+    {
+      "n_looks": 3,
+      "false_positive_rate": 0.1055,
+      "mc_se": 0.006869124762296867
+    },
+    {
+      "n_looks": 5,
+      "false_positive_rate": 0.1435,
+      "mc_se": 0.007839252196478947
+    },
+    {
+      "n_looks": 10,
+      "false_positive_rate": 0.1855,
+      "mc_se": 0.008691655480977141
+    },
+    {
+      "n_looks": 20,
+      "false_positive_rate": 0.238,
+      "mc_se": 0.00952249967182987
+    },
+    {
+      "n_looks": 50,
+      "false_positive_rate": 0.3065,
+      "mc_se": 0.010309164612130316
+    }
+  ],
+  "peeking_bonferroni_fpr": 0.0205
+}

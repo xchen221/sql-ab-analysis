@@ -1,0 +1,9 @@
+# Raw data are downloaded by src/01_get_data.py and are not redistributed here
+# (Hillstrom has no stated license; Olist is CC BY-NC-SA and can be re-downloaded).
+data/
+*.duckdb
+*.duckdb.wal
+logs/
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/

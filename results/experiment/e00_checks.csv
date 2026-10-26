@@ -1,0 +1,10 @@
+check_name,n_rows
+rows (expect 64000),64000
+cells with NULL,0
+unexpected segment label,0
+conversion without a visit,0
+spend > 0 without conversion,0
+conversion with zero spend,0
+negative spend or history,0
+bought neither mens nor womens last year,0
+recency outside 1-12 months,0

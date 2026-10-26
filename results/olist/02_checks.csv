@@ -1,0 +1,13 @@
+check_name,n_rows
+duplicate order_id in orders,0
+order_items rows with no matching order,0
+orders with no items,775
+orders with no payment record,1
+payments differ from items + freight by > 1 BRL,249
+status delivered but no delivery timestamp,8
+delivered timestamp but status not delivered,6
+delivery timestamp earlier than purchase,0
+orders with more than one review,547
+people (customer_unique_id) with more than one customer_id,2997
+products with no category,610
+categories with no English translation,2

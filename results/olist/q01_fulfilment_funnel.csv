@@ -1,0 +1,5 @@
+step,stage,n_orders,pct_of_placed,pct_of_previous_step,lost_at_this_step
+1,placed,92580,100.0,,
+2,approved,92512,99.93,99.93,68
+3,shipped,90979,98.27,98.34,1533
+4,delivered,89852,97.05,98.76,1127
